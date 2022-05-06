@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  }
+  
+
+  
+.header {
+  padding: 30px;
+  text-align: left;
+  background: rgb(193, 231, 123);
+  color: rgb(201, 126, 126);
+  font-size: 30px;
+  }
+  
+
+
+
+  .nav {
+  overflow: hidden;
+  background-color: gray;
+  position: sticky;
+  top: 0;
+  }
+  
+
+  /* Style the navigation bar links */
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 18px;
+    font-size: large;
+    text-decoration: line;
+  }
+  
+  
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .nav a.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+.container {   
+  width: 100%;
+  background-color: white;
+
+  /*container 값을 지정(margin 값을 설정)해주어야 nav에 있는 position:sticky가 작동하는 것 같음*/
+  margin:0 auto;
+}
+
+
+
+
+  .container img{
+      width: 550px;
+      height: 350px;
+      float: left;
+      vertical-align: bottom;
+    
+      margin-right: 35px;
+  }
+
+
+.container h4{
+  padding-bottom: 23px;
+      font-size: xx-large;
+      position: top; 
+      border-bottom: solid;
+      border-width: 1px;
+      margin-left: 585px
+  }
+
+
+.container p{
+  font-size: 20px;
+  line-height: 180%;
+}
+
+
+
+.content1{
+  width: 100%;
+     background-color: white;
+     padding: 25px;
+     float: left;
+     border-bottom: solid;
+     border-width: 1px;
+   }
+
+
+.content2{
+  width: 100%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    border-bottom: solid;
+    border-width: 1px;
+  }
+
+
+.content3{
+  width: 100%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    border-bottom: solid;
+    border-width: 1px;
+  }
+  
+  
+  .footertext{
+    font-size: 15px;
+    padding: 10px;
+  }
